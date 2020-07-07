@@ -1,0 +1,139 @@
+
+body {
+	font-family: times, arial, sans-serif;
+	font-size: 15pt;
+	margin: 4% 8% auto 4%;
+}
+
+html, body, #wrapper, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	margin: 0pt 0pt 20pt 0pt;
+}
+h3, h4 {
+	margin: 0pt 0pt -10pt 0pt;
+}
+
+html {
+	height: 101%; margin-bottom: 1px; 
+}
+
+
+#wrapper {
+	width: 1000px;
+	margin: 4% auto auto auto;
+	position: center;
+	h-align: center;
+	v-align: center;
+
+}
+
+#wide_wrapper {
+	width: 1200px;
+	margin: 4% auto auto auto;
+	position: center;
+	h-align: center;
+	v-align: center;
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 40pt;
+}
+
+p.head {
+	text-align: center;
+	font-size: 30pt;
+}
+
+
+
+img {
+	border: 0pt;
+	padding: 0;
+}
+
+
+.left {
+	float: left;
+	width: 200pt;
+
+	margin: 2px;
+	padding: 0;
+}
+
+
+.right {
+	float: right;
+	width: 67%;
+	padding: 0;
+	margin: 15px 0 0 10px;
+}
+.paper{
+	font-size: 15.5pt;
+}
+
+.ab{
+	font-size:12.5pt;
+	padding: 1em;
+	margin-top: -2em;
+	margin-bottom: -1em;
+}
+
+.right a:link {
+	color: rgb(0,0,255);
+	text-decoration: none;
+}
+.right a:visited {
+	color: rgb(0,0,160);
+	text-decoration: none;
+}
+.right a:hover {
+	color: blues;
+	text-decoration: underline;
+}
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 10pt;
+  -webkit-column-count: 3;
+  -webkit-column-gap:   3px;
+  -moz-column-count:    3;
+  -moz-column-gap:      3px;
+  column-count:         3;
+  column-gap:           3px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+ /* position: absolute;*/
+}
+
+#address {
+	float: center;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 15pt;
+}
+ul#nav {
+	list-style: none;
+	padding: 5pt
+}
+
+ul#nav li a {
+	text-decoration: none;
+	color: blues
+}
+ul#nav li a:visited {
+	text-decoration: none;
+	color: #0B0B61;
+}
+ul#nav li.active a {
+	font-weight: bold;
+	color: black;
+}
