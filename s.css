@@ -84,6 +84,11 @@ img {
 	margin-bottom: -1em;
 }
 
+.more {
+	margin-top: -2em;
+	margin-bottom: -1em;
+}
+
 .right a:link {
 	color: rgb(0,0,255);
 	text-decoration: none;
