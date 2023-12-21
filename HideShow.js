@@ -1,4 +1,3 @@
-< !--
 function expandIt(whichAb, whichMore) {
 	if (whichAb.style.display == 'none') {
 		whichAb.style.display =  "" ;
@@ -20,4 +19,3 @@ function expandIt2(whichAb,whichMore) {
 		whichMore.innerHTML="&#9656 More";
 	}
 }
-//-->
