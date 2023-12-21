@@ -1,6 +1,8 @@
+< !--
+
 	function expandIt(whichAb, whichMore) {
 		if (whichAb.style.display == 'none') {
-			whichAb.style.display = (whichAb.style.display == "none") ? "" : "none";
+			whichAb.style.display =  "" ;
 			whichMore.innerHTML = "&#9662 Abstract";
 		}
 		else {
@@ -12,10 +14,12 @@
 
 function expandIt2(whichAb,whichMore) {
 	if (whichAb.style.display=='none') {
-		whichAb.style.display = (whichAb.style.display == "none" ) ? "" : "none";
+		whichAb.style.display =  "" ;
 		whichMore.innerHTML="&#9662 Less";	}
 	else {
 		whichAb.style.display ='none';
 		whichMore.innerHTML="&#9656 More";
 	}
 }
+
+//-->
